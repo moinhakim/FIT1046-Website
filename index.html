@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debit Card Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Bank Of Australia</p>
+          <h1>
+            Welcome, to the ultimate <span>Debit Card</span><br />Melbourne,VIC
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Credit card edit MOIN updated 3.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About</h1>
+            <p>
+              Looking for a card with low rates, low fees or rewards? BOA has
+              the perfect card for you to consider. Our Credit Cards are
+              designed with the best-in-class reward program. You can also
+              conduct secured transactions with BOA Credit Cards without
+              worrying about cyber security threats
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Worldwide Recognition
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Great Rewards
+              </p>
+              <p class="tab-links" onclick="opentab('education')">
+                Perfect Credit Limit
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>BOA First</span><br />No interest on purchase for a 20
+                  month promotional period
+                </li>
+                <li>
+                  <span>BOA Gold</span><br />No interest on purchase for a 25
+                  month promotional period
+                </li>
+                <li>
+                  <span>BOA Platinum</span><br />No interest on purchase for a
+                  30 month promotional period
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />UI/UX Design Training at ET
+                  Institute
+                </li>
+                <li><span>2019 - 2021</span><br />Team lead at StarApp LLC.</li>
+                <li>
+                  <span>2017 - 2019</span><br />UI/UX Design Executive at Coin
+                  Digital Ltd.
+                </li>
+                <li>
+                  <span>2016 - 2017</span><br />Internship at ekart eCommerce.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2016</span><br />UI/UX Design Training at ET Institute
+                </li>
+                <li><span>2016</span><br />MBA from MIT Bangalore.</li>
+                <li><span>2014</span><br />BBA from ISM Bangalore.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------services---------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Featueres and Benefits</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-apple"></i>
+            <h2>Apple</h2>
+            <p>
+              10% Cashback on select Apple Products using BOA Credit card,
+              during the term at select stores
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h2>Household & Personal Care</h2>
+            <p>
+              Shop for Household and Personal Care Products and get a range of
+              discounts using the BOA Credit Card<br />
+              Get a 30% discount on shopping above 199$ or a 10% cashback as
+              store credit on purchase under 49$
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-person-running"></i>
+            <h2>Footwear</h2>
+            <p>
+              Get 40% off on your favourite footwear brands. Use your BOA Credit
+              Card and pay in 4 easy installments with 0% interest for 12 months
+              from date of purchse.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------portfolio------------ -->
+
+    <div class="container">
+      <h1 class="sub-title">Collaborations</h1>
+      <div class="container-1">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <i class="fa-brands fa-google-pay"></i>
+              <h3>Google Pay</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>
+                BOA offers this access along with other financial services. In
+                collaboration between Google Pay and BOA provide the ability to
+                scale their offering for client's convenience
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <i class="fa-solid fa-money-bill-trend-up"></i>
+              <h3>Investment</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>
+                Investment with BOA Credit Card helps you and your corporations
+                plan and manage large projects, saving you the time and money by
+                identifying risks associated with the project
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------products------------ -->
+    <div class="container">
+      <div class="product-card">
+        <div class="logo-cart">
+          <!--<img src="images/logo.jpg" alt="logo">-->
+          <i class="bx bx-shopping-bag"></i>
+        </div>
+        <div class="main-images">
+          <!--<img id="blue" class="blue active" src="images/blue.png" alt="blue">-->
+          <!--<img id="pink" class="pink" src="images/pink.png" alt="blue">-->
+          <!--<img id="yellow" class="yellow" src="images/yellow.png" alt="blue">-->
+        </div>
+        <div class="shoe-details">
+          <span class="shoe_name">Macbook Pro</span>
+          <p>
+            Lorem ipsum dolor sit lorenm i amet, consectetur adipisicing elit.
+            Eum, ea, ducimus!
+          </p>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+        </div>
+        <div class="color-price">
+          <div class="price">
+            <span class="price_num">$09.00</span>
+            <span class="price_letter">Nine dollar only</span>
+          </div>
+        </div>
+        <div class="button">
+          <div class="button-layer"></div>
+          <button>Buy with BOA Credit Card</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
